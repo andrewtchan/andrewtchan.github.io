@@ -9,7 +9,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
     helvetica neue, Cantarell, Ubuntu, roboto, noto, helvetica, arial,
     sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.8;
   text-shadow: 0 1px 0 #ffffff;
   max-width: 50%;
@@ -28,4 +28,16 @@ a:hover {
 img {
   width: 100%;
   height: auto;
+}
+
+@media only screen and (max-width: 64em) {
+  body {
+    max-width: 75%;
+  }
+}
+
+@media only screen and (max-width: 48em) {
+  body {
+    max-width: 95%;
+  }
 }
