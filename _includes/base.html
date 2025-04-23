@@ -22,7 +22,7 @@
 
     <link rel="stylesheet" href="/assets/css/base.css">
 
-    <title>andrewtchan.com</title>
+    <title>{% if title %}{{ config.title }} - {{ title }}{% else %}{{ config.title }}{% endif %}</title>
   </head>
   <body>
     {{ content }}
