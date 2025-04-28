@@ -13,6 +13,7 @@
     "@11ty/eleventy": "^3.0.0"
   },
   "dependencies": {
-    "@11ty/eleventy-img": "^6.0.2"
+    "@11ty/eleventy-img": "^6.0.2",
+    "luxon": "^3.6.1"
   }
 }

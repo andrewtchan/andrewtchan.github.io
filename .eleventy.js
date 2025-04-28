@@ -1,4 +1,5 @@
 const { eleventyImageTransformPlugin } = require("@11ty/eleventy-img");
+const { DateTime } = require("luxon");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("assets");
@@ -14,5 +15,11 @@ module.exports = function (eleventyConfig) {
       },
       pictureAttributes: {}
     },
+  });
+  eleventyConfig.addFilter("readableDatePST", (date) => {
+    return DateTime.fromJSDate(date, { zone: "utc" }).toLocaleString(DateTime.DATE_MED);
+  });
+  eleventyConfig.addFilter("htmlDatePST", (date) => {
+    return DateTime.fromJSDate(date, { zone: "utc" }).toFormat("yyyy-LL-dd");
   });
 };

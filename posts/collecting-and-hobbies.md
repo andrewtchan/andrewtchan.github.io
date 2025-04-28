@@ -4,9 +4,6 @@ date: 2025-02-28
 description: What things are worth spending time on? My thoughts on finding satisfaction in a finite life.
 ---
 
-2/28/25
-10:57 AM PST
-
 First blog post (pre-website era). Sorry in advance to anyone who reads this and maybe thinks my writing is cringey or generally stinks -- I don't read personal blogs or have any sense of what style might be appropriate.
 
 I've wanted to build and host a personal website for a while now but could never find enough time or good reason to do so besides it being somewhat standard for professional/aspiring software engineers and especially those interested in web development. However, since graduating from Cal Poly [link to pic]() this December and beginning my "sabbatical", I've found both non-software interests that could be fun to write about and the time to do so.
