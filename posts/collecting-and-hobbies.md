@@ -10,7 +10,7 @@ First blog post (pre-website era). Sorry in advance to anyone who reads this and
 
 I've wanted to build and host a personal website for a while now but could never find enough time or good reason to do so besides it being somewhat standard for professional/aspiring software engineers and especially those interested in web development. However, since graduating from Cal Poly [link to pic]() this December and beginning my "sabbatical", I've found both non-software interests that could be fun to write about and the time to do so.
 
-[pic of stereo stuff]()
+{% include "helpers/figure.html" name:"receivers.jpg" alt: "Two black stereo receivers stacked upon one another, both with bright blue indicator lights." caption: "The Onkyo TX-8511 and the Technics SA-R377" %}
 
 I'm currently writing this on Notepad (again, pre-website era) from my girlfriend's apartment in LA. Compared to most other cities I've spent some significant time in, I've found that LA really does have everything. It's just so big. Any scene, any culture, any hobby or interest you might think of probably has representation here, and it's probably pretty significant. Part of it is just that there are a lot of people living here. One benefit of all this: the Facebook Marketplace is absolutely full of outrageous deals on like, everything. Second-hand stores too, depending on where you are.
 

@@ -1,0 +1,12 @@
+{% assign filePath = page.inputPath | split: "/" %}
+{% assign fileName = filePath[2] | remove: ".md" %}
+{% assign assetPath = name | prepend: "/" | prepend: fileName | prepend: "/assets/images/" %}
+
+<figure>
+  <img
+    alt="{{ alt }}"
+    src="{{ assetPath }}"
+  />
+
+  <figcaption>{{caption}}</figcaption>
+</figure>
