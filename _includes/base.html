@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="/assets/css/base.css">
 
     <title>{% if title %}{{ config.title }} - {{ title }}{% else %}{{ config.title }}{% endif %}</title>
+    <meta name="description" content="{% if description %}{{ description }}{% else %}{{ config.description }}{% endif %}"
   </head>
   <body>
     {{ content }}

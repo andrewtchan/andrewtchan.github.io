@@ -1,6 +1,7 @@
 ---
 title: This very site
 date: 2025-04-02
+description: How I built my first blog.
 ---
 
 - experience building with JS frameworks
