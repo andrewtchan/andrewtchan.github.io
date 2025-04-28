@@ -1,6 +1,7 @@
 ---
 title: On collecting and hobbies
 date: 2025-02-28
+description: What things are worth spending time on? My thoughts on finding satisfaction in a finite life.
 ---
 
 2/28/25
