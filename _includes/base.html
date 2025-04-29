@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <title>{% if title %}{{ config.title }} - {{ title }}{% else %}{{ config.title }}{% endif %}</title>
+    <meta name="description" content="{% if description %}{{ description }}{% else %}{{ config.description }}{% endif %}" />
+
+    <!-- favicons -->
     <link
       rel="icon"
       type="image/png"
@@ -20,15 +24,23 @@
     <meta name="apple-mobile-web-app-title" content="andrewtchan.com" />
     <link rel="manifest" href="/assets/icons/site.webmanifest" />
 
+    <!-- styles -->
     <link rel="stylesheet" href="/assets/css/base.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Playfair+Display&display=swap" rel="stylesheet">
 
-    <title>{% if title %}{{ config.title }} - {{ title }}{% else %}{{ config.title }}{% endif %}</title>
-    <meta name="description" content="{% if description %}{{ description }}{% else %}{{ config.description }}{% endif %}" />
   </head>
   <body>
     {{ content }}
     <footer>
       <br>
+      <hr>
+      <ul>
+        <li><a href="https://github.com/andrewtchan" target="_blank">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/andrewtchan9/" target="_blank">LinkedIn</a></li>
+        <li><a href="https://techtoots.com/@andrewtchan" target="_blank">Mastodon</a></li>
+      </ul>
       © 2025 Andrew Thomas Chan
       <br>
       <a href="https://github.com/andrewtchan/www/blob/main/{{ page.inputPath }}" target="_blank">Edit this page on GitHub</a>
