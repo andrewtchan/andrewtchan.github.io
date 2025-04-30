@@ -32,6 +32,7 @@
 
   </head>
   <body>
+    {% unless page.url == "/" %}{% include "helpers/navheader.html" %}{% endunless %}
     {{ content }}
     <footer>
       <br>
