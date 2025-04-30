@@ -35,7 +35,13 @@
     {% unless page.url == "/" %}{% include "helpers/navheader.html" %}{% endunless %}
     {{ content }}
     <footer>
-      <br>
+      {% if page.url contains '/blog/' and page.url != '/blog/' %}
+        <div aria-label="Go back" class="back-nav">
+          <a href="/blog/">← back</a>
+        </div>
+      {% else %}
+        <br>
+      {% endif %}
       <hr>
       <ul>
         <li><a href="https://github.com/andrewtchan" target="_blank">GitHub</a></li>
