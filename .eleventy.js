@@ -1,8 +1,10 @@
 const { eleventyImageTransformPlugin } = require("@11ty/eleventy-img");
+const markdownItFootnote = require("markdown-it-footnote");
 const { DateTime } = require("luxon");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("assets");
+  eleventyConfig.amendLibrary("md", (mdLib) => mdLib.use(markdownItFootnote));
   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
     extensions: 'html',
     formats: ['webp', "jpeg"],
