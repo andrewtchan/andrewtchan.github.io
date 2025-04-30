@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "@11ty/eleventy-img": "^6.0.2",
-    "luxon": "^3.6.1"
+    "luxon": "^3.6.1",
+    "markdown-it-footnote": "^4.0.0"
   }
 }
