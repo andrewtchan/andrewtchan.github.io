@@ -110,4 +110,8 @@ footer li:last-child {
   body {
     max-width: 95%;
   }
+  figure {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
