@@ -14,8 +14,8 @@ body {
   text-shadow: 0 1px 0 #ffffff;
   max-width: 720px;
 }
-code {
-  background: white;
+li {
+  list-style-type: circle;
 }
 a {
   border-bottom: 1px solid #292929;
@@ -61,6 +61,7 @@ footer ul {
 footer li {
   text-transform: uppercase;
   margin-right: 2rem;
+  list-style-type: none;
 }
 footer li:last-child {
   margin-right: 0;

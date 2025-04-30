@@ -9,7 +9,10 @@ description: Everything you didn't know you wanted to know, all in one place.
   <h1>a collection of my thoughts</h1>
   <ul>
     {% for post in collections.post reversed %}
-    <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+    <li>
+      <a href="{{ post.url }}">{{ post.data.title }}</a>
+      <time datetime="{{ post.data.date | htmlDatePST }}">{{ post.data.date | readableDatePST }}</time>
+    </li>
     {% endfor %}
   </ul>
 </main>
