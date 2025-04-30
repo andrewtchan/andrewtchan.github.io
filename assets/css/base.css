@@ -15,7 +15,7 @@ body {
   max-width: 720px;
 }
 li {
-  list-style-type: circle;
+  list-style-type: none;
 }
 a {
   border-bottom: 1px solid #292929;
@@ -61,14 +61,25 @@ footer ul {
 footer li {
   text-transform: uppercase;
   margin-right: 2rem;
-  list-style-type: none;
 }
 footer li:last-child {
   margin-right: 0;
 }
 
-.intro {
+.intro h1 {
   font-size: 3rem;
+}
+.intro h3 {
+  margin-bottom: 0.5rem;
+}
+.intro ul {
+  margin: 0;
+}
+.intro li {
+  list-style-type: circle;
+}
+.intro a, span {
+  font-style: italic;
 }
 
 @media only screen and (max-width: 64em) {
