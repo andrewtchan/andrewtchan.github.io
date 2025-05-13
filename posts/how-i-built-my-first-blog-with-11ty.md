@@ -1,7 +1,7 @@
 ---
-title: This very site
+title: How I built my first blog with 11ty
 date: 2025-04-02
-description: How I built my first blog.
+description: How and why I built my personal website. A reflection on the process and all the choices I made, intentional or otherwise.
 ---
 
 - experience building with JS frameworks
