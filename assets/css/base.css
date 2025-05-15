@@ -119,7 +119,8 @@ footer li:last-child {
 }
 .about-intro figure {
   flex: 0 0 40%;
-  margin-left: 1rem;
+  margin-left: 1.5rem;
+  margin-right: 1rem;
 }
 .about-intro img {
   width: 100%;
@@ -197,7 +198,7 @@ footer li:last-child {
   .about-intro figure {
     flex: none;
     width: 90%;
-    margin-left: 0;
+    margin: 0 0 1rem 0;
   }
   .about-intro img {
     width: 100%;
