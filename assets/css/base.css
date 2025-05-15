@@ -80,6 +80,10 @@ footer li:last-child {
   margin-right: 0;
 }
 
+.post p {
+  text-align: justify;
+}
+
 .intro h1 {
   font-size: 3rem;
 }
@@ -103,6 +107,61 @@ footer li:last-child {
   align-items: center;
 }
 
+.about-intro {
+  display: flex;
+  align-items: flex-start;
+}
+.about-intro-text {
+  flex: 1 1 60%;
+}
+.about-intro-text h1 {
+  margin-bottom: 1rem;
+}
+.about-intro figure {
+  flex: 0 0 40%;
+  margin-left: 1rem;
+}
+.about-intro img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  aspect-ratio: 1 / 1;
+  border-radius: 3%;
+}
+
+.about-lists {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.about-list-card {
+  flex: 1 1 calc(50% - 0.5rem);
+  max-width: calc(50% - 0.5rem);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1rem;
+  background-color: #e0e0e0;
+  border-radius: 3%;
+}
+.about-list-card h2 {
+  font-size: 1.2rem;
+  margin: 0;
+  text-decoration: underline;
+}
+.about-list-card ol {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  list-style-position: inside;
+  padding-left: 0;
+}
+.about-list-card i {
+  font-size: 1rem;
+}
+
 @media only screen and (max-width: 64em) {
   body {
     max-width: 80%;
@@ -116,5 +175,34 @@ footer li:last-child {
   figure {
     margin-left: 0;
     margin-right: 0;
+  }
+  .post p {
+    text-align: left;
+  }
+  .about-list-card {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 36em) {
+  .about-intro {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-intro-text {
+    flex: none;
+    width: 100%;
+  }
+  .about-intro figure {
+    flex: none;
+    width: 90%;
+    margin-left: 0;
+  }
+  .about-intro img {
+    width: 100%;
+    height: auto;
+    object-fit: fill;
+    aspect-ratio: auto;
   }
 }

@@ -1,0 +1,43 @@
+---
+layout: base.html
+title: about me
+permalink: "/about/"
+description: Get to know me, personally.
+---
+
+<main>
+  <article>
+    <div class="about-intro">
+      <div class="about-intro-text">
+        <h1>
+          Nice to meet you!
+        </h1>
+        <p>
+          Rather than bore you with a long-winded backstory full of introspection 
+          and character growth <i>(don't worry, plenty of that in my <a href="/blog/">blog</a>)</i>, 
+          here are some good old top 5 lists. Feel free to make snap judgements about my 
+          character based on this information.
+        </p>
+      </div>
+      <figure>
+        <img 
+          alt="Professional shoulders-up photo of the author wearing a green and gold stole over a white collared shirt"
+          src="/assets/images/grad_headshot.jpg"
+        />
+        <figcaption>me</figcaption>
+      </figure>
+    </div>
+    <div class="about-lists">
+      {% for list in top5 %}
+        <div class="about-list-card">
+          <h2>{{ list.title }}</h2>
+          <ol>
+            {% for item in list.items %}
+              <li>{{ item.text }} <i>{{ item.secondaryText }}</i></li>
+            {% endfor %}
+          </ol>
+        </div>
+      {% endfor %}
+    </div>
+  </article>
+</main>
