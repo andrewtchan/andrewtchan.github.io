@@ -15,7 +15,7 @@
       { "text": "The Hobbit", "secondaryText": "by J.R.R. Tolkien" },
       { "text": "My Life in France", "secondaryText": "by Julia Child" },
       { "text": "Dune Messiah", "secondaryText": "by Frank Herbert" },
-      { "text": "All About Love", "secondaryText": "by bell hooks" },
+      { "text": "All About Love: New Visions", "secondaryText": "by bell hooks" },
       { "text": "Operating Systems: Three Easy Pieces", "secondaryText": "by Remzi H., Andrea C. Arpaci-Dusseau" }
     ]
   },
@@ -29,16 +29,6 @@
       { "text": "4", "secondaryText": "" }
     ]
   },
-    {
-    "title": "Favorite Artists/Bands",
-    "items": [
-      { "text": "The Beatles", "secondaryText": "" },
-      { "text": "Japanese Breakfast", "secondaryText": "" },
-      { "text": "Elliott Smith", "secondaryText": "" },
-      { "text": "The Velvet Underground", "secondaryText": "" },
-      { "text": "Modest Mouse", "secondaryText": "" }
-    ]
-  },
   {
     "title": "Favorite Video Games",
     "items": [
@@ -47,6 +37,16 @@
       { "text": "The Elder Scrolls IV: Oblivion", "secondaryText": "2006" },
       { "text": "Counter Strike: Global Offensive", "secondaryText": "2012" },
       { "text": "MechWarrior Online", "secondaryText": "2013" }
+    ]
+  },
+  {
+    "title": "Favorite Artists/Bands",
+    "items": [
+      { "text": "The Beatles", "secondaryText": "all time favorite" },
+      { "text": "Japanese Breakfast", "secondaryText": "modern favorite" },
+      { "text": "Elliott Smith", "secondaryText": "favorite guitarist" },
+      { "text": "The Velvet Underground", "secondaryText": "when i wanna feel cool" },
+      { "text": "Modest Mouse", "secondaryText": "what i was listening to as i made this list" }
     ]
   },
   {
