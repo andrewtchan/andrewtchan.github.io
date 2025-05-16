@@ -99,6 +99,9 @@ footer li:last-child {
 .intro a, span {
   font-style: italic;
 }
+.intro i {
+  font-size: 1rem;
+}
 
 .not-found, .construction {
   display: flex;
