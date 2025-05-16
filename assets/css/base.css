@@ -100,7 +100,7 @@ footer li:last-child {
   font-style: italic;
 }
 
-.not-found {
+.not-found, .construction {
   display: flex;
   flex-direction: column;
   justify-content: center;
