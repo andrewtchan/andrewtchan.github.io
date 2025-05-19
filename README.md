@@ -7,7 +7,7 @@ This repository contains the source code for my personal website and blog. Here'
 1. Clone the repository and enter its directory
    
    ```
-   git clone https://github.com/andrewtchan/www.git andrewtchan.com
+   git clone https://github.com/andrewtchan/andrewtchan.github.io.git andrewtchan.com
    ```
    ```
    cd andrewtchan.com
