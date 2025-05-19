@@ -5,6 +5,7 @@ const { DateTime } = require("luxon");
 module.exports = function (eleventyConfig) {
   eleventyConfig.ignores.add("README.md");
   eleventyConfig.addPassthroughCopy("assets");
+  eleventyConfig.addPassthroughCopy("CNAME");
   eleventyConfig.amendLibrary("md", (mdLib) => mdLib.use(markdownItFootnote));
   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
     extensions: 'html',
