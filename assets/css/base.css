@@ -207,4 +207,8 @@ footer li:last-child {
     width: 100%;
     height: auto;
   }
+
+  .post-list ul {
+    padding-left: 0.5rem;
+  }
 }
