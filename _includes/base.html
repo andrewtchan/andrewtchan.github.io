@@ -1,3 +1,17 @@
+{% if title %}
+	{% assign metaTitle = title %}
+{% else %}
+	{% assign metaTitle = config.title %}
+{% endif %}
+
+{% if description %}
+	{% assign metaDescription = description %}
+{% else %}
+	{% assign metaDescription = config.description %}
+{% endif %}
+
+{% assign metaUrl = page.url | replace:'index.html','' | prepend: config.url %}
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -7,7 +21,21 @@
 
     <!-- metadata -->
     <title>{% if title %}{{ config.title }} - {{ title }}{% else %}{{ config.title }}{% endif %}</title>
-    <meta name="description" content="{% if description %}{{ description }}{% else %}{{ config.description }}{% endif %}" />
+    <meta name="description" content="{{ metaDescription }}" />
+    <meta name="author" content="{{ config.author }}"/>
+    <meta name="theme-color" content="#f2f2f2" />
+
+    <meta property="og:type" content="{% if page.url contains '/blog/' and page.url != '/blog/' %}article{% else %}website{% endif %}" />
+    <meta property="og:title" content="{{ metaTitle }}" />
+    <meta property="og:description" content="{{ metaDescription }}"/>
+    <meta property="og:url" content="{{ metaUrl}}" />
+    <meta property="og:image" content="{{ "/assets/icons/og-image.png" | prepend: config.url }}" />
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{{ metaTitle }}">
+    <meta name="twitter:description" content="{{ metaDescription }}">
+    <meta name="twitter:site" content="{{ metaUrl }}">
+    <meta name="twitter:image:src" content="{{ "/assets/icons/og-image.png" | prepend: config.url }}">
 
     <!-- favicons -->
     <link
