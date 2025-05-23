@@ -30,6 +30,6 @@ This repository contains the source code for my personal website and blog. Here'
 ## Credits
 This site is built with [11ty](https://www.11ty.dev/) and hosted here with GitHub Pages.
 
-Massively influenced and inspired by [eduardoboucas.com](https://github.com/eduardoboucas/buildtimes) and [thundergolfer.com](https://github.com/thundergolfer/thundergolfer.github.io) -- two beautiful and insightful websites also built with 11ty.
+Massively influenced and inspired by [eduardoboucas.com](https://github.com/eduardoboucas/buildtimes) and [thundergolfer.com](https://github.com/thundergolfer/thundergolfer.github.io).
 
 Site preview generated with [Screely](https://screely.com/).
