@@ -1,5 +1,5 @@
 ---
-title: Intro to coffee
+title: My intro to coffee
 date: 2025-06-05
 description: All the coffee stuff I've amassed so far.
 ---
