@@ -6,6 +6,7 @@
   <img
     alt="{{ alt }}"
     src="{{ assetPath }}"
+    {% if loading %}loading="{{ loading }}"{% endif %}
   />
 
   <figcaption>{{caption}}</figcaption>

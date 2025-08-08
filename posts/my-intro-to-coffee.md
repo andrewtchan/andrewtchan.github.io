@@ -6,7 +6,7 @@ description: All the coffee stuff I've amassed so far.
 
 I'm back! After the long push to get the "v1" of this site up I took some time away to catch up on other parts of my life^[Then after writing the draft for this post I spent 2 months deciding whether or not it was good enough to post... D:]. There was a real danger of me never returning, but it seems like I actually do like having this thing a little bit.
 
-{% include "helpers/figure.html" name:"latte_art.jpg" alt:"Close-up top-down view of a latte in a blue mug with a blue saucer. The latte has steamed milk art resembling an abstract tulip." caption:"A better-than-usual latte art by me, taken 08/2025" %}
+{% include "helpers/figure.html" name:"latte_art.jpg" alt:"Close-up top-down view of a latte in a blue mug with a blue saucer. The latte has steamed milk art resembling an abstract tulip." caption:"A better-than-usual latte art by me, taken 08/2025" loading:"eager" %}
 
 Here is a rundown/review of all the coffee-related gear I currently own, plus backstory:
 

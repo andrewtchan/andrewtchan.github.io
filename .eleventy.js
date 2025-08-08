@@ -13,7 +13,7 @@ module.exports = function (eleventyConfig) {
     widths: ["auto"],
     htmlOptions: {
       imgAttributes: {
-        loading: "eager",
+        loading: "lazy",
         decoding: "async",
         sizes: "auto",
       },
