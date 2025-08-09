@@ -1,3 +1,9 @@
 <header>
-  <a href="/">← home</a>
+  <nav aria-label="Main navigation" class="main-nav">
+    {% if page.url contains '/blog/' and page.url != '/blog/' %}
+      <a href="/blog/">← back to posts</a>
+    {% else %}
+      <a href="/">← home</a>
+    {% endif %}
+  </nav>
 </header>

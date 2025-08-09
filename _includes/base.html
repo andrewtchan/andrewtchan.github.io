@@ -70,16 +70,13 @@
 
   </head>
   <body>
+    <a id="top"></a>
     {% unless page.url == "/" %}{% include "helpers/navheader.html" %}{% endunless %}
     {{ content }}
     <footer>
-      {% if page.url contains '/blog/' and page.url != '/blog/' %}
-        <div aria-label="Go back" class="back-nav">
-          <a href="/blog/">← back</a>
-        </div>
-      {% else %}
+      {% unless page.url contains '/blog/' and page.url != '/blog/' %}
         <br>
-      {% endif %}
+      {% endunless %}
       <hr>
       <ul>
         <li>{% include "helpers/external-link.html" href:"https://github.com/andrewtchan" text:"GitHub" %}</li>
