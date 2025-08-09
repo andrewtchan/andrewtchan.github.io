@@ -2,7 +2,7 @@
 title: Tea biscuits, reviewed
 date: 2025-08-08
 description: Rating five tea biscuits I bought recently.
-ogImage: "/assets/images/tea-biscuits-reviewed/bourbon.jpg"
+ogImage: "/assets/images/tea-biscuits-reviewed/english_tea.jpg"
 ---
 
 {% include "helpers/figure.html" name:"english_tea.jpg" alt:"Top-down view of a cup of tea on a saucer with a long rectangular biscuit on a Union Jack patterned table." caption:"image credit: Fragrantica.com" loading:"eager" %}
