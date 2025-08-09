@@ -2,6 +2,7 @@
 title: My intro to coffee
 date: 2025-06-05
 description: All the coffee stuff I've amassed so far.
+ogImage: "/assets/images/my-intro-to-coffee/latte_art.jpg"
 ---
 
 I'm back! After the long push to get the "v1" of this site up I took some time away to catch up on other parts of my life^[Then after writing the draft for this post I spent 2 months deciding whether or not it was good enough to post... D:]. There was a real danger of me never returning, but it seems like I actually do like having this thing a little bit.

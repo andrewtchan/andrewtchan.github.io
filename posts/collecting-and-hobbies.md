@@ -2,6 +2,7 @@
 title: On collecting and hobbies
 date: 2025-02-28
 description: What things are worth spending time on? My thoughts on finding satisfaction in a finite life.
+ogImage: "/assets/images/collecting-and-hobbies/receivers.jpg"
 ---
 
 I've wanted to build and host a personal website for a while now but could never find enough time or good reason to do so besides it being somewhat standard for professional/aspiring software engineers and especially those interested in web development. However, since graduating from Cal Poly this December and beginning a little sabbatical period (college was hard work!!), I've found both non-software interests that could be fun to write about and the time to do so.

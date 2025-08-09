@@ -10,6 +10,12 @@
 	{% assign metaDescription = config.description %}
 {% endif %}
 
+{% if ogImage %}
+	{% assign metaImage = ogImage | prepend: config.url %}
+{% else %}
+	{% assign metaImage = "/assets/icons/og-image.png" | prepend: config.url %}
+{% endif %}
+
 {% assign metaUrl = page.url | replace:'index.html','' | prepend: config.url %}
 
 <!DOCTYPE html>
@@ -29,13 +35,13 @@
     <meta property="og:title" content="{{ metaTitle }}" />
     <meta property="og:description" content="{{ metaDescription }}"/>
     <meta property="og:url" content="{{ metaUrl}}" />
-    <meta property="og:image" content="{{ "/assets/icons/og-image.png" | prepend: config.url }}" />
+    <meta property="og:image" content="{{ metaImage }}" />
 
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="{{ metaTitle }}">
     <meta name="twitter:description" content="{{ metaDescription }}">
     <meta name="twitter:site" content="{{ metaUrl }}">
-    <meta name="twitter:image:src" content="{{ "/assets/icons/og-image.png" | prepend: config.url }}">
+    <meta name="twitter:image:src" content="{{ metaImage }}">
 
     <meta name="generator" content="{{ eleventy.generator }}">
 
