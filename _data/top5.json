@@ -55,7 +55,10 @@
       { "text": "Somebody That I Used To Know", "secondaryText": "by Elliott Smith" },
       { "text": "Kathy's Song", "secondaryText": "by Simon & Garfunkel" },
       { "text": "Cigarette Daydreams", "secondaryText": "by Cage The Elephant" },
-      { "text": "Ballad of Big Nothing", "secondaryText": "by Elliott Smith" },
+      {
+        "text": "Everything Reminds Me of Her",
+        "secondaryText": "by Elliott Smith"
+      },
       { "text": "1979", "secondaryText": "by The Smashing Pumpkins" }
     ]
   }
