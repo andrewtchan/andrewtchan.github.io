@@ -14,9 +14,15 @@
     "items": [
       { "text": "The Hobbit", "secondaryText": "by J.R.R. Tolkien" },
       { "text": "My Life in France", "secondaryText": "by Julia Child" },
+      {
+        "text": "The Magic Mountain",
+        "secondaryText": "by Thomas Mann"
+      },
       { "text": "Dune Messiah", "secondaryText": "by Frank Herbert" },
-      { "text": "All About Love: New Visions", "secondaryText": "by bell hooks" },
-      { "text": "Operating Systems: Three Easy Pieces", "secondaryText": "by Remzi H., Andrea C. Arpaci-Dusseau" }
+      {
+        "text": "All About Love: New Visions",
+        "secondaryText": "by bell hooks"
+      }
     ]
   },
   {
@@ -53,13 +59,22 @@
     "title": "Songs to Play on the Guitar",
     "items": [
       { "text": "Somebody That I Used To Know", "secondaryText": "by Elliott Smith" },
-      { "text": "Kathy's Song", "secondaryText": "by Simon & Garfunkel" },
-      { "text": "Cigarette Daydreams", "secondaryText": "by Cage The Elephant" },
+      {
+        "text": "Kathy's Song",
+        "secondaryText": "by Simon & Garfunkel"
+      },
       {
         "text": "Everything Reminds Me of Her",
         "secondaryText": "by Elliott Smith"
       },
-      { "text": "1979", "secondaryText": "by The Smashing Pumpkins" }
+      {
+        "text": "Jealous Guy",
+        "secondaryText": "by John Lennon"
+      },
+      {
+        "text": "Cigarette Daydreams",
+        "secondaryText": "by Cage The Elephant"
+      }
     ]
   }
 ]
